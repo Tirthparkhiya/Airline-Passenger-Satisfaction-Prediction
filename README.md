@@ -90,6 +90,6 @@ Below is a table listing all features used to make predictions, along with possi
    - DVC tracks data and model versions
 
 7. **Serving**
-   - Flask handles the backend REST API
+   - Flask handles the backend 
    - Optional: Django for user frontend interface
 
