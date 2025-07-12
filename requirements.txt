@@ -1,0 +1,15 @@
+numpy
+pandas
+setuptools
+mongo-connector
+pymongo
+scikit-learn
+lightgbm
+xgboost
+tensorboard
+torch
+matplotlib
+mlflow
+dvc
+flask
+streamlit
