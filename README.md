@@ -59,7 +59,7 @@ Below is a table listing all features used to make predictions, along with possi
 | **Data Versioning**    | DVC                                          |
 | **Database**           | MongoDB                                     |
 | **Logging**            | Python Logging, MLflow, TensorBoard         |
-| **Deployment**         | Flask API + (Optional Django frontend)      |
+| **Deployment**         | Flask + (Optional Django frontend)      |
 
 ---
 
@@ -93,4 +93,3 @@ Below is a table listing all features used to make predictions, along with possi
    - Flask handles the backend REST API
    - Optional: Django for user frontend interface
 
----"# Airline-Passenger-Satisfaction-Prediction" 
