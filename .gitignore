@@ -1,0 +1,73 @@
+# === Python ignores ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyd
+*.pyo
+*.log
+*.sqlite3
+*.db
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# === ML & Experiment tracking ===
+mlruns/
+dvc.lock
+.dvc/
+*.dvc
+tensorboard_logs/
+*.tfevents*
+
+# === Django/Flask configs ===
+*.secret
+*.env
+.env.*
+config.py
+
+# === IDEs & Editors ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS & Misc ===
+.DS_Store
+Thumbs.db
+
+# === Project artifacts ===
+logs/
+saved_models/
+models/
+checkpoints/
+data/
+__pycache__/
+*.bak
+*.old
+*.tmp
+
+# === MongoDB dump ===
+dump/
+
+# === Build & distribution ===
+build/
+dist/
+*.spec
+*.tar.gz
+
+# === Cache ===
+.cache/
+*.cache/
+pip-wheel-metadata/
+*.ipynb_checkpoints/
+
+
+.dvcignore
