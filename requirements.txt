@@ -1,13 +1,11 @@
 numpy
 pandas
 setuptools
-pymongo
 scikit-learn
 lightgbm
 matplotlib
 mlflow
 flask
-streamlit
 pylint
 flake8
 black
