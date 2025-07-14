@@ -1,9 +1,9 @@
 pipeline {
     agent any
     
-    environment (
+    environment {
         VENV_DIR='venv'
-    )
+    }
 
     stages {
         stage('Cloning from Github Repo') {
