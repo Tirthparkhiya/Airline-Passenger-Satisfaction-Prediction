@@ -64,6 +64,12 @@ pipeline {
                 }
             }
         }
+        stage('Check Docker') {
+            steps {
+                sh 'docker --version || echo "Docker not installed"'
+            }
+        }
+
 
         stage('Building Docker Image') {
             steps {
